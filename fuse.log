@@ -1,0 +1,44 @@
+Running: /opt/Xilinx/14.6/ISE_DS/ISE/bin/lin64/unwrapped/fuse -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "/home/csmajs/wbi002/cs161l_lab6/cs161_processor_testbench_isim_beh.exe" -prj "/home/csmajs/wbi002/cs161l_lab6/cs161_processor_testbench_beh.prj" "work.cs161_processor_testbench" "work.glbl" 
+ISim P.68d (signature 0xfbc00daa)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/sign_ext.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/mux_2_1.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/gen_register.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/cpu_registers.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/cpumemory.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/alu.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/datapath.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/control_unit.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/alu_control.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/processor.v" into library work
+Analyzing Verilog file "/home/csmajs/wbi002/cs161l_lab6/processor_tb.v" into library work
+Analyzing Verilog file "/opt/Xilinx/14.6/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 94764 KB
+Fuse CPU Usage: 970 ms
+Compiling module control_unit
+Compiling module gen_register
+Compiling module gen_register(WORD_SIZE=1)
+Compiling module gen_register(WORD_SIZE=4)
+Compiling module gen_register(WORD_SIZE=5)
+Compiling module cpumemory
+Compiling module cpu_registers
+Compiling module alu
+Compiling module mux_2_1(WORD_SIZE=5)
+Compiling module mux_2_1
+Compiling module sign_ext
+Compiling module cs161_datapath
+Compiling module alu_control
+Compiling module cs161_processor
+Compiling module cs161_processor_testbench
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 16 Verilog Units
+Built simulation executable /home/csmajs/wbi002/cs161l_lab6/cs161_processor_testbench_isim_beh.exe
+Fuse Memory Usage: 1179332 KB
+Fuse CPU Usage: 980 ms
+GCC CPU Usage: 130 ms

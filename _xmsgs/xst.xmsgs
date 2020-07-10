@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompilers" num="38" delta="old" ><arg fmt="%s" index="1">&quot;cpumemory.v&quot; line 6 </arg>Macro &apos;<arg fmt="%s" index="2">MAX_REG</arg>&apos; redefined
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;processor.v&quot; line 54 </arg>Connection to output port &apos;<arg fmt="%s" index="2">alu_op</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;processor.v&quot; line 69 </arg>Connection to input port &apos;<arg fmt="%s" index="2">alu_op</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 210 </arg>Connection to output port &apos;<arg fmt="%s" index="2">data_out</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 238 </arg>Connection to output port &apos;<arg fmt="%s" index="2">data_out</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 286 </arg>Connection to input port &apos;<arg fmt="%s" index="2">data_in</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 287 </arg>Connection to output port &apos;<arg fmt="%s" index="2">data_out</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 331 </arg>Connection to input port &apos;<arg fmt="%s" index="2">write_register</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 339 </arg>Connection to input port &apos;<arg fmt="%s" index="2">alu_control_in</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="new" ><arg fmt="%s" index="1">&quot;datapath.v&quot; line 344 </arg>Connection to output port &apos;<arg fmt="%s" index="2">zero_out</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="259" delta="old" ><arg fmt="%s" index="1">&quot;processor.v&quot; line 89 </arg>Connection to input port &apos;<arg fmt="%s" index="2">alu_op</arg>&apos; does not match port size
+</msg>
+
+<msg type="warning" file="HDLCompilers" num="261" delta="old" ><arg fmt="%s" index="1">&quot;processor.v&quot; line 92 </arg>Connection to output port &apos;<arg fmt="%s" index="2">alu_out</arg>&apos; does not match port size
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">instr_opcode</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">prog_count</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">instr_opcode</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">reg1_addr</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">reg1_data</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">reg2_addr</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">reg2_data</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">write_reg_addr</arg>&gt; as target.
+</msg>
+
+<msg type="error" file="Xst" num="871" delta="old" >&quot;<arg fmt="%s" index="1">processor.v</arg>&quot; line <arg fmt="%d" index="2">60</arg>: Invalid use of input signal &lt;<arg fmt="%s" index="3">write_reg_data</arg>&gt; as target.
+</msg>
+
+</messages>
+

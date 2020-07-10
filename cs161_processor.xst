@@ -1,0 +1,5 @@
+set -tmpdir "/home/csmajs/wbi002/cs161l_lab6/xst/projnav.tmp"
+set -xsthdpdir "/home/csmajs/wbi002/cs161l_lab6/xst"
+elaborate
+-ifn cs161_processor.prj
+-ifmt mixed

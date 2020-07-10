@@ -1,0 +1,5 @@
+set -tmpdir "/home/winson/cs161l_lab6/xst/projnav.tmp"
+set -xsthdpdir "/home/winson/cs161l_lab6/xst"
+elaborate
+-ifn control_unit.prj
+-ifmt mixed
